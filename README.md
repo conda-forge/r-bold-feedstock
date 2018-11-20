@@ -14,9 +14,8 @@ Summary: A programmatic interface to the Web Service methods provided by Bold Sy
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-bold-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-bold-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-bold-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-bold-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-bold-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-bold-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-bold-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-bold-feedstock)
 
 Current release info
 ====================
