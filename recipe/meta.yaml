@@ -1,4 +1,4 @@
-{% set version = "0.8.0" %}
+{% set version = "0.8.6" %}
 
 package:
   name: r-bold
@@ -9,7 +9,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/bold_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/bold/bold_{{ version }}.tar.gz
-  sha256: 72f80edf0c6551d2a320423a9af1b6460804b460dd6350857ccdf781e610869b
+  sha256: c697a2af76c0466c0814f328c38de203322b06cec332b437631e046e9f51015e
 
 build:
   noarch: generic
