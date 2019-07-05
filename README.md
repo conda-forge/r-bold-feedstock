@@ -1,23 +1,28 @@
 About r-bold
 ============
 
-[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
-
-Home: https://cran.r-project.org/web/packages/bold
+Home: https://github.com/ropensci/bold
 
 Package license: MIT
 
 Feedstock license: BSD 3-Clause
 
-Summary: A programmatic interface to the Web Service methods provided by Bold Systems (<http
+Summary: A programmatic interface to the Web Service methods provided by Bold Systems (<http://www.boldsystems.org/>) for genetic 'barcode' data. Functions include methods for searching by sequences by taxonomic names, ids, collectors, and institutions; as well as a function for searching for specimens, and downloading trace files.
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-bold-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-bold-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1010&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-bold-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -50,6 +55,8 @@ conda search r-bold --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -109,6 +116,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@dpryan79](https://github.com/dpryan79/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 
