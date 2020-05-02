@@ -1,4 +1,4 @@
-{% set version = '0.9.0' %}
+{% set version = "1.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bold_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bold/bold_{{ version }}.tar.gz
-  sha256: 45e844a83f4545a2f84887e36db83113da824a8673fa039f067a3bd7ee82ed5e
+  sha256: 2ff86a50b1b89c68ebeca9792382042e774b541173d3bc0854163e8b7a5d488d
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   script: R CMD INSTALL --build .
   rpaths:
@@ -23,7 +23,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-crul >=0.3.8
@@ -54,10 +54,8 @@ about:
   home: https://github.com/ropensci/bold
   license: MIT
   license_file: LICENSE
-  summary: A programmatic interface to the Web Service methods provided by Bold Systems (<http://www.boldsystems.org/>)
-    for genetic 'barcode' data. Functions include methods for searching by sequences
-    by taxonomic names, ids, collectors, and institutions; as well as a function for
-    searching for specimens, and downloading trace files.
+  summary: A programmatic interface to the Web Service methods provided by Bold Systems (<http://www.boldsystems.org/>) for genetic 'barcode' data. Functions include methods for searching by sequences by taxonomic names, ids, collectors, and institutions; as well as a function for searching for specimens, and downloading
+    trace files.
   license_family: MIT
 
 extra:
