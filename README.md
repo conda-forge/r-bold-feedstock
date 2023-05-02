@@ -1,11 +1,11 @@
-About r-bold
-============
+About r-bold-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bold-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/bold
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bold-feedstock/blob/main/LICENSE.txt)
 
 Summary: A programmatic interface to the Web Service methods provided by Bold Systems (<http://www.boldsystems.org/>) for genetic 'barcode' data. Functions include methods for searching by sequences by taxonomic names, ids, collectors, and institutions; as well as a function for searching for specimens, and downloading trace files.
 
